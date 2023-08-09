@@ -1,0 +1,42 @@
+/* Reset some default styling */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px; /* Increased vertical padding for height */
+  }
+  
+  .navbar-logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Align links vertically in the middle */
+  }
+  
+  .navbar-links li {
+    margin: 0 20px; /* Increased horizontal margin for spacing */
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px; /* Increased font size */
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #ffc107;
+  }
+  
